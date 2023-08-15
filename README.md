@@ -1,7 +1,7 @@
 # README
 
 
-* bundel
+* bundle
 * rals db:create
 * rails db:migrate
 * rails db:seed
