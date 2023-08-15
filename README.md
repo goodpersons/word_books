@@ -42,6 +42,12 @@ path: /api/v1/words
 methed: get
 
 *查看单词详情
-usr: http://127.0.0.1:3000/api/v1/words/1
+url: http://127.0.0.1:3000/api/v1/words/1
 path: /api/v1/word/id
 methed: get
+
+*更改单词状态
+url: http://127.0.0.1:3000/api/v1/word/2?status=true
+path: /api/v1/word/:id
+methed: patch
+parmas: status:true/false

@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
       get '/words', to: "words#index"
       get '/word/:id', to: "words#show"
+      patch '/word/:id', to: "words#update"
     end
   end
 
